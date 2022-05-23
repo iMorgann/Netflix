@@ -1,0 +1,112 @@
+
+.show {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background: rgb(255, 255, 255) no-repeat center center/cover;
+}
+
+.show::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background: rgba(255, 255, 255, 0.65);
+    box-shadow: inset 30px 10px 150px #ffffff;
+}
+
+.show-content {
+    position: relative;
+    z-index: 2;
+    width: 450px;
+    height: 650px;
+    background: rgba(255, 255, 255, 0.65);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+    padding: 60px 65px;
+}
+
+.form h1 {
+    margin-bottom: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.form .inform .email {
+    margin-bottom: 5px;
+    width: 100%;
+    height: 35px;
+    border-radius: 4px;
+    border: px;
+    border-color: #a4a4a4;
+    padding: 10px;
+    font-size: inherit;
+        
+        
+
+}
+
+
+.helper {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8rem;
+}
+
+input[type=checkbox] {
+    background: #737373;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    border: 0;
+    height: 16px;
+    left: -20px;
+    width: 16px;
+    margin-right: 5px;
+}
+
+.footerr {
+    position: absolute;
+        margin-top: 50px;
+        z-index: 2;
+        background: rgba(0, 0, 0, 0.65);
+        width: 100%;
+        height: 200px;
+}
+
+.ftrr-content {
+    margin-left: 10%;
+    padding-top: 20px;
+    font-size: 1em;
+}
+
+.ftrr-content a {
+    color: #b0b0b0;
+}
+
+.ftrr-content a:hover {
+    text-decoration: underline;
+}
+
+.ftrr {
+    margin-bottom: 30px;
+        width: 70%;
+        font-size: 0.8em;
+        display: flex;
+        justify-content: space-between;
+}
+
+.selecter select {
+    width: 100px;
+        height: 40px;
+        border: none;
+        font-size: inherit;
+        padding-left: 10px;
+        background: #333333;
+}
